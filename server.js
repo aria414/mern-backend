@@ -21,7 +21,7 @@ NODE_ENV === "production" ? app.use(cors(corsOptions)) : app.use(cors());
 
 //Route for testing server is working
 app.get("/", (req, res) => {
-    res.json({ hello: "Hello World!" });
+    res.json({ hello: "Hello World! - from Steve, Anny and Sean" });
   });
 
  // --- IMPORT THE CONTROLLERs ---
