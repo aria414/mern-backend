@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
   });
 
  // --- IMPORT THE CONTROLLERs ---
- const songRouter = require('../controllers/Song')
+ const songRouter = require('./controllers/Song')
  app.use("/songs", songRouter);
 
 //The PORT is a variable that Heroku is tryna pass in. Use this variable to set up server
