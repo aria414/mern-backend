@@ -1,5 +1,5 @@
 const express = require('express')
-const router = require('router')
+const router = express.Router()
 const Song =require('../models/Songs')
 
 // INDEX - Get all Songs
